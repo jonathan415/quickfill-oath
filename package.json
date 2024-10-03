@@ -1,0 +1,28 @@
+{
+  "name": "google-oauth-app",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.0",
+    "@react-oauth/google": "^0.12.1",
+    "axios": "^1.7.7",
+    "next": "14.2.11",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
